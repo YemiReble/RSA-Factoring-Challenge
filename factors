@@ -25,5 +25,5 @@ def factorize(num_to_check):
                 num_to_check = int(line.split('\n')[0])
                 factorize(num_to_check)
                 line = file.readline()
-    # except:
-    #    pass
+    except:
+        pass
